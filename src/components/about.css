@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.image {
+   margin: 20px;
+   border-radius: 20px;
+}
+
+.containerx{
+   width:100%;   
+}
+
+.containerx h1{
+   font-size:50px
+}
+
+.aboutx{
+   padding:0%;
+   width:100%;
+   height:auto;
+}
+
+.aboutx .leftx{
+   padding:2% 0;
+
+   width:50%;
+   display:inline-block;
+}
+
+.aboutx .rightx{
+   width:50%;
+   display:inline-block;
+}
+
+.aboutx .rightx img{
+   width:100%;
+   border-radius: 8px;
+}
+
+.aboutx .leftx h1{
+   text-align:center;
+   color:#F1BBD5;
+   margin:0 0 10px 0;
+}
+
+.aboutx .leftx hr{
+   width:20%;
+   border-top:2px solid #000;
+   border-bottom:none;
+   
+}
+
+.aboutx .leftxx p{
+   font-size:1rem;
+   margin:40px auto;
+   width: 30%;
+   text-align: center
+}
+
+.clearx{
+    clear: both;			
+}
+
+footer{
+   width:100%;
+   height:100px;
+   color: #E7CBCB;
+}
+
+footer p{
+   text-align:center;
+   padding: 0 2% ;
+}
+
+
+
+
+
+
+/* media */
+@media(max-width:1200px){
+   .mission .right p{
+      font-size:.8rem;
+      margin:20px auto;
+   }
+   .about .left p{
+      font-size:.8rem;
+      margin:20px auto;
+   }
+}
+
+
+
+
+
+
+@media(max-width:992px){
+   .about .left{
+   width:100%; 
+}
+   .about .right{
+   width:100%; 
+}
+      .mission .left{
+   width:100%; 
+}
+   .mission .right{
+   width:100%; 
+}
+   .team .card{ 
+   width:40%;
+}   
+}
+
+@media(max-width:768px){
+      .team .card{ 
+   width:100%;
+} 
+   nav{
+      height:80px;
+   }
+}
+
