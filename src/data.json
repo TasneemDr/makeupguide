@@ -1,28 +1,284 @@
 {
-    "posts": [
+    "foundations": [
         {
             "id": 1,
-            "title": "Post 1",
-            "content": "Welcome to ReDI. This is the full content of post 1",
-            "url": "images/redi_logo.jpg"
+            "name": "Maybelline",
+            "brand": "maybeline",
+            "price": 12,
+            "type": "Foundation",
+            "color": "05",
+            "pic": "https://www.maybelline.com.my/~/media/mny/ms_my/face/foundation/super%20stay%2024h%20full%20coverage%20foundation/maybelline-foundation-super-stay-full-coverage-buff-beige-041554541441-c.jpg",
+            "description": "Die gut deckende, matte Foundation",
+            "url": "link",
+            "hautton": "hell",
+            "hauttyp": "trocken"
+
         },
         {
             "id": 2,
-            "title": "Post 2",
-            "content": "This is the full content of post 2",
-            "url": "images/redi_logo.jpg"
-        },
-        {
+            "name": "super-stay",
+            "brand": "maybeline",
+            "price": 7,
+            "type": "Foundation",
+            "color": "02",
+            "pic": "https://www.maybelline.com.my/~/media/mny/ms_my/face/foundation/super%20stay%2024h%20full%20coverage%20foundation/maybelline-foundation-super-stay-full-coverage-buff-beige-041554541441-c.jpg",
+            "description": "full-coverage",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "olig"
+
+        }, {
             "id": 3,
-            "title": "Post 3",
-            "content": "This is the full content of post 3",
-            "url": "images/redi_logo.jpg"
+            "name": "Brittny Spears",
+            "brand": "maybeline",
+            "price": 19,
+            "type": "Foundation",
+            "color": "06",
+            "pic": "https://www.maybelline.com.my/~/media/mny/ms_my/face/foundation/super%20stay%2024h%20full%20coverage%20foundation/maybelline-foundation-super-stay-full-coverage-buff-beige-041554541441-c.jpg",
+            "description": "Hitze, Feuchtigkeit, Anstrengung",
+            "url": "link",
+            "hautton": "dunkel",
+            "hauttyp": "mischaut"
+
+        }, {
+            "id": 4,
+            "name": "Maybelline",
+            "brand": "maybeline",
+            "price": 12,
+            "type": "Foundation",
+            "color": "01",
+            "pic": "https://www.maybelline.com.my/~/media/mny/ms_my/face/foundation/super%20stay%2024h%20full%20coverage%20foundation/maybelline-foundation-super-stay-full-coverage-buff-beige-041554541441-c.jpg",
+            "description": "Feuchtigkeit, Anstrengung",
+            "url": "link",
+            "hautton": "sehr dunkel",
+            "hauttyp": "normal"
+
         },
         {
-            "id": 4,
-            "title": "Post 4",
-            "content": "This is the full content of post 4",
-            "url": "images/redi_logo.jpg"
+            "id": 5,
+            "name": "Maybelline",
+            "brand": "maybeline",
+            "price": 7,
+            "type": "Foundation",
+            "color": "09",
+            "pic": "https://www.maybelline.com.my/~/media/mny/ms_my/face/foundation/super%20stay%2024h%20full%20coverage%20foundation/maybelline-foundation-super-stay-full-coverage-buff-beige-041554541441-c.jpg",
+            "description": "Hitze, Feuchtigkeit, Anstrengung",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "olig"
+
+        },
+        {
+            "id": 6,
+            "name": "Fitme",
+            "brand": "maybelline",
+            "price": 11,
+            "type": "Foundation",
+            "color": "01",
+            "pic": "https://www.parfimo.de/data/cache/thumb_min500_max1000-min500_max1000-12/products/237569/1683811230/maybelline-fit-me-matte-poreless-foundation-fur-frauen-30-ml-farbton-100-warm-ivory-458713.jpg",
+            "description": "PERFECT MATCH MAKE-UP - Foundation",
+            "url": "link",
+            "hautton": "hell",
+            "hauttyp": "trocken"
+
+        },
+        {
+            "id": 7,
+            "name": "L'Oréal",
+            "brand": "L'orial",
+            "price": 13,
+            "type": "Foundation",
+            "color": "10",
+            "pic": "https://cdn.idealo.com/folder/Product/5097/6/5097667/s1_produktbild_gross_2/l-oreal-paris-infaillible-24h-matte-foundation-35ml.jpg",
+            "description": "PERFECT MATCH MAKE-UP - Foundation",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "olig"
+
+        },
+        {
+            "id": 8,
+            "name": "L'Oréal",
+            "brand": "L'orial",
+            "price": 1,
+            "type": "Foundation",
+            "color": "02",
+            "pic": "https://cdn.idealo.com/folder/Product/5097/6/5097667/s1_produktbild_gross_2/l-oreal-paris-infaillible-24h-matte-foundation-35ml.jpg",
+            "description": "Super Konsistenz, läßt dich gut auftragen",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "trocken"
+
+        },
+        {
+            "id": 9,
+            "name": "Cupcake",
+            "brand": "Huda Beauty",
+            "price": 44,
+            "type": "Foundation",
+            "color": "08",
+            "pic": "https://images.asos-media.com/products/huda-beauty-fauxfilter-skin-finish-abdeckstift-zum-schichtweisen-auftragen/24359147-1-255applepie?$n_750w$&wid=750&hei=750&fit=crop",
+            "description": "Arabic Beauty and dark sahara",
+            "url": "link",
+            "hautton": "sehr dunkel",
+            "hauttyp": "mischaut"
+
+        },
+        {
+            "id": 10,
+            "name": "Sephora",
+            "brand": "Siphora",
+            "price": 22,
+            "type": "Foundation",
+            "color": "10",
+            "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5hvSUdY-86hIqJDKL6jdOjHpHRI1CahEsEkCanjz5O3epOuBFwNZdRPq4OzVUzhecRQ&usqp=CAU",
+            "description": "PERFECT MATCH MAKE-UP - Foundation",
+            "url": "link",
+            "hautton": "sehr dunkel",
+            "hauttyp": "trocken"
+
+        },
+        {
+            "id": 11,
+            "name": "Fitme",
+            "brand": "maybelline",
+            "price": 23,
+            "type": "Foundation",
+            "color": "04",
+            "pic": "https://www.parfimo.de/data/cache/thumb_min500_max1000-min500_max1000-12/products/237569/1683811230/maybelline-fit-me-matte-poreless-foundation-fur-frauen-30-ml-farbton-100-warm-ivory-458713.jpg",
+            "description": "LIQUID MAKE-UP",
+            "url": "link",
+            "hautton": "dunkel",
+            "hauttyp": "normal"
+
+        },
+        {
+            "id": 12,
+            "name": "Best Skin Ever Foundation",
+            "brand": "Siphora",
+            "price": 6,
+            "type": "Foundation",
+            "color": "11",
+            "pic": "https://www.sephora.de/dw/image/v2/BBQW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwf104bac0/images/hi-res/all/SKU/502336_swatch.jpg?sw=265&sh=265&sm=fit",
+            "description": "Eine neue Generation von Foundation-Pflege ",
+            "url": "link",
+            "hautton": "dunckel",
+            "hauttyp": "olig"
+
+        },
+        {
+            "id": 13,
+            "name": "Best Skin Ever Foundation",
+            "brand": "Siphora",
+            "price": 9,
+            "type": "Foundation",
+            "color": "10",
+            "pic": "https://www.sephora.de/dw/image/v2/BBQW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw026d7493/images/hi-res/all/SKU/502308_swatch.jpg?sw=265&sh=265&sm=fit",
+            "description": "S",
+            "url": "link",
+            "hautton": "hell",
+            "hauttyp": "olig"
+
+        },
+        {
+            "id": 14,
+            "name": "Hadeek 9",
+            "brand": "L'orial",
+            "price": 2,
+            "type": "Foundation",
+            "color": "22",
+            "pic": "https://cdn.idealo.com/folder/Product/5097/6/5097667/s1_produktbild_gross_2/l-oreal-paris-infaillible-24h-matte-foundation-35ml.jpg",
+            "description": "Always young and shiny",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "trocken"
+
+        },
+        {
+            "id": 15,
+            "name": "Samara",
+            "brand": "L'orial",
+            "price": 22,
+            "type": "Foundation",
+            "color": "2",
+            "pic": "https://cdn.idealo.com/folder/Product/5097/6/5097667/s1_produktbild_gross_2/l-oreal-paris-infaillible-24h-matte-foundation-35ml.jpg",
+            "description": "Best option for Students",
+            "url": "link",
+            "hautton": "hell",
+            "hauttyp": "mischaut"
+
+        },
+        {
+            "id": 16,
+            "name": "l'oreal true match",
+            "brand": "L'orial",
+            "price": 16,
+            "type": "Foundation",
+            "color": "112",
+            "pic": "https://cdn.idealo.com/folder/Product/5116/8/5116892/s1_produktbild_gross/l-oreal-paris-true-match-super-blendable-make-up-4n-beige-30ml.jpg",
+            "description": "Matte-foundation-35ml",
+            "url": "link",
+            "hautton": "hell",
+            "hauttyp": "trocken"
+
+        },
+        {
+            "id": 17,
+            "name": "FAUX FILTER LUMINOUS MATTE FOUNDATION",
+            "brand": "Huda Beauty",
+            "price": 30,
+            "type": "Foundation",
+            "color": "115",
+            "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeLsDG6jS0mNVnFrQUXT1BWVPNVWKse3hsR5iTdb0ULL79wNxkdLavNFbPYdspOsZMZMU&usqp=CAU",
+            "description": "Matte-foundation-35ml",
+            "url": "link",
+            "hautton": "sehr dunkel",
+            "hauttyp": "mischhaut"
+
+        },
+        {
+            "id": 18,
+            "name": "HUDA BEAUTY",
+            "brand": "Huda Beauty",
+            "price": 40,
+            "type": "Foundation",
+            "color": "116",
+            "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS5bMnEnV_mey7v0CB0knEdhpgr1svMVAzCA&usqp=CAU",
+            "description": " Creme Foundation, die sichtbar Hautunreinheiten ",
+            "url": "link",
+            "hautton": "dunkel",
+            "hauttyp": "mischhaut"
+
+        },
+        {
+            "id": 19,
+            "name": "HUDA BEAUTY",
+            "brand": "Huda Beauty",
+            "price": 40,
+            "type": "Foundation",
+            "color": "116",
+            "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS5bMnEnV_mey7v0CB0knEdhpgr1svMVAzCA&usqp=CAU",
+            "description": "",
+            "url": "link",
+            "hautton": "mittel",
+            "hauttyp": "olig"
+
+        },
+        {
+            "id": 20,
+            "name": "HUDA BEAUTY",
+            "brand": "Huda Beauty",
+            "price": 40,
+            "type": "Foundation",
+            "color": "116",
+            "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS5bMnEnV_mey7v0CB0knEdhpgr1svMVAzCA&usqp=CAU",
+            "description": " Creme Foundation, die sichtbar Hautunreinheiten und Unvollkommenheiten verdeckt",
+            "url": "link",
+            "hautton": "dunkel",
+            "hauttyp": "normal"
+
         }
+      
+        
     ]
 }

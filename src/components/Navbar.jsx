@@ -47,6 +47,10 @@ function Navbar() {
           Contact
         </Link>
 
+        <Link to="/product" onClick={toggleMobileMenu}>
+        Product
+        </Link>
+
         {/* extend navbar along login status of user */}
         {/* {user ? ( */}
           {/* <div className={"member"}> */}
@@ -77,6 +81,8 @@ function Navbar() {
         <Link to="/questions">Questions</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/product">Product</Link>
+
 
         {/* extend navbar along login status of user */}
         {/* {user ? ( */}

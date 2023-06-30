@@ -17,9 +17,7 @@ function About() {
             <img className="image" src="https://img.freepik.com/fotos-kostenlos/online-workshop-und-vorfuehrung-von-beauty-produkten_259150-60056.jpg?size=626&ext=jpg&ga=GA1.1.1421284590.1682608003&semt=ais" />
           </div>
 
-          <div className="untenx">
-            <img className="image" src="https://img.freepik.com/fotos-kostenlos/draufsichtanordnung-mit-schoenheitstasche-und-kopieraum_23-2148301851.jpg?size=626&ext=jpg&ga=GA1.2.1421284590.1682608003&semt=ais" />
-          </div>
+          
 
 
           <div className="clearx"></div>

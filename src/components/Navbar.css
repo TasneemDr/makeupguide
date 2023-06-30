@@ -75,7 +75,7 @@ color: #E7CBCB;
 }
 
 .mobile-menu a:hover {
-  color: orange;
+  color: rgb(233, 216, 236);
 }
 
 /* Media queries for responsiveness - mobile first approach */

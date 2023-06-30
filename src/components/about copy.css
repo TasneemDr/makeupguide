@@ -1,62 +1,52 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.image {
-   margin: 20px;
-   border-radius: 20px;
-}
 
 .containerx{
-   width:100%;   
+   width:100%;
+  
+      background: radial-gradient(circle, rgba(218,103,209,1) 15%, rgba(171,89,162,1) 60%, rgba(84,55,85,1) 100%);
+   
 }
-
 .containerx h1{
    font-size:50px
 }
-
 .aboutx{
    padding:5% 0;
    width:100%;
    height:auto;
+ 
 }
-
 .aboutx .leftx{
    padding:2% 0;
-   float: left;
-   width: 46%;
-   text-align: center
+   float:left;
+   width:50%;
    
-   ;
 }
-
 .aboutx .rightx{
    width:50%;
    display:inline-block;
 }
-
 .aboutx .rightx img{
    width:100%;
    border-radius: 8px;
 }
-
 .aboutx .leftx h1{
    text-align:center;
    color:#F1BBD5;
    margin:0 0 10px 0;
 }
-
 .aboutx .leftx hr{
    width:20%;
    border-top:2px solid #000;
    border-bottom:none;
 }
-
 .aboutx .leftxx p{
    font-size:1rem;
    margin:40px auto;
-   width: 30%;
-    text-align: center
+   width:80%
 }
+
 
 .clearx{
     clear: both;			
@@ -65,9 +55,8 @@
 footer{
    width:100%;
    height:100px;
-   color: #E7CBCB;
+   background-color:#3B0944;
 }
-
 footer p{
    text-align:center;
    padding: 0 2% ;

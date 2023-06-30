@@ -15,9 +15,6 @@ display: flex;
 flex-direction: column;
 gap: 50px;
 justify-content: center;
-
-/* align-items: center; */
-/* margin: 0 2rem; */
 padding:0 5%;
   }
    .questions h2{
@@ -30,9 +27,6 @@ padding:0 5%;
   
 }
 
-
-
-
    
 
   .form-group {
@@ -42,21 +36,25 @@ padding:0 5%;
   label {
     display: block;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+  color:#7d4b74
+   
+  
+
   } 
 
-   /* .inputt {
-    width: 200px;
-    border: 2px solid red;
-    height: 50px 
-
-  }  */
+   
 
   input,
   select {
     width: 10;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
+    background-color: #9a6590;
+  
+    
     
   }
   
